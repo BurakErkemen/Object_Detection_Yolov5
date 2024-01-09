@@ -23,7 +23,7 @@ def object_detection(image):
 
 
 def main():
-    st.title("OBject Detection")
+    st.title("Object Detection")
     result = st.button("ReadlTime Object Detection")
     if result:
         cap = cv2.VideoCapture(0)
